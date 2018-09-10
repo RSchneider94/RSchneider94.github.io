@@ -14,7 +14,7 @@ $(document).ready(function() {
   });
 
   // Work Section
-  if(myWorkList.length >= 0) {
+  if(myWorkList.length > 0) {
     for (let index = 0; index < myWorkList.length; index++) {
       $('#portfolio-thumbs').append(
         '<div class="col-6 col-md-3">\
