@@ -1,4 +1,4 @@
 # Rodrigo Schneider | Web Developer
-My personal/portfolio website
-Feel free to look it!
-Thanks!
+My personal/portfolio website <br />
+Feel free to look it! <br />
+Thanks! <br />
