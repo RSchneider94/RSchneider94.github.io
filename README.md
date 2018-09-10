@@ -1,2 +1,4 @@
-# RSchneider94.github.io
-My personal/portfolio website
+# Rodrigo Schneider | Web Developer
+My personal/portfolio website <br />
+Feel free to look it! <br />
+Thanks! <br />
