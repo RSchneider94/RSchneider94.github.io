@@ -1,0 +1,188 @@
+/*  styles.css
+*
+* Main layout for my Portfolio Website.
+*
+*/
+
+/* ============ General Settings ============ */
+body {
+  position: relative;
+  padding-top: 56px;
+  background-color: #726255;
+  color: #FBFBFB;
+}
+ul { list-style: none; }
+#contact-details,
+#social-network-links,
+#skill-list { -webkit-padding-start: 0; }
+
+/* ============ Home Settings ============ */
+
+/* Header */
+#home {
+  background-image: url('../img/header-bg.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+  padding-top: 40px;
+  color: #ecb939;
+}
+#home h1 { font-size: 4em; }
+#home p { font-size: 1.3em; }
+
+/* Sections Paddings */
+.content { padding-top: 70px; }
+/* Sections Header */
+.header { margin: 48px 0; }
+/* Sections Content */
+section hr {
+  margin-top: 0;
+  width: 20%;
+  border: 0;
+  border-bottom: 1px solid #f0c75e;
+}
+
+/* Modal Settings */
+.modal-content { color: #372e29; }
+#modal-embed {
+  height: 500px;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  /* Sections Content */
+  section hr {
+    margin-top: 0;
+    width: 40%;
+    border: 0;
+    border-bottom: 1px solid #f0c75e;
+  }
+  /* Header Background must scroll on small devices */
+  #home {
+    background-attachment: scroll;
+  }
+}
+
+/* ============  Work Section ============ */
+#portfolio-thumbs img {
+  padding-bottom: 1.8em;
+}
+.portfolio-caption-container {
+  position: relative;
+  display: block;
+  max-width: 200px;
+  margin: auto;
+}
+.portfolio-caption-title {
+  position: absolute;
+  top: 53%;
+  display: none;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(53, 58, 64, .93);
+  transition: display 2s ease;
+}
+
+
+/* ============ About Section ============ */
+.skill {
+  padding: 24px;
+  background-color: #f0c75e;
+  color: #372e29;
+}
+.intro p {
+  font-size: 1.18em;
+  -webkit-margin-before: 0;
+}
+.main-text p { font-size: 1.1em; }
+
+@media (max-width: 576px) {
+  .image {
+    margin-bottom: 20px;
+    text-align: center!important;
+  }
+  .skill {
+    padding: 14px;
+  }
+}
+
+/* ============ Contact Section ============ */
+#contact { padding-bottom: 70px; }
+
+/* Contact Details */
+.contact-information {
+  padding: 14px;
+  color: #372e29;
+  background-color: #f0c75e;
+}
+.contact-information li { padding-top: 5px; }
+.contact-information a { color: #372e29; }
+
+
+/* Social Networking */
+#social-network-links a {
+  color: #fff;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+#social-network-links a:hover { color: #f0c75e; }
+@media (max-width: 576px) {
+  .social-network { margin-top: 3rem; }
+}
+
+/* Google Maps */
+#google-maps {
+  height: 350px;
+  width: 100%;
+}
+
+/* ============ Typography ============ */
+h1,
+h2,
+h3 { font-family: 'Ubuntu Condensed', sans-serif; }
+
+h2,
+h3 { text-transform: uppercase; }
+
+p,
+li { font-family: 'Quattrocento', serif; }
+
+.header h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+.header h1,
+.social-network h2,
+.contact-information h2,
+.contact-information li { text-align: center; }
+.intro h2,
+.main-text h2,
+.main-text a { color: #ecb939; }
+
+.social-network a:hover,
+.main-text a:hover { color: #f0c75e; }
+.navbar-brand,
+.nav-link { text-transform: uppercase; }
+.nav-item {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+.nav-link {
+  display: inline;
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .nav-link:hover,
+  .nav-link.active {
+    color: #fff;
+    border-bottom: 2px solid #f0c75e;
+  }
+}
+
+.social-network h2 { color: #ecb939; }
+.social-network li {
+  display: inline-block;
+  padding: 0 10px;
+}
